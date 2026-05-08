@@ -1,6 +1,6 @@
 # Scala OWL Abductive Reasoner (Skeleton)
 
-A learning-oriented Scala project skeleton for **single-cell abductive completion** in phenotype supermatrices.
+A learning-oriented Scala project skeleton for single-cell abductive completion in phenotype supermatrices.
 
 ## Goal
 
