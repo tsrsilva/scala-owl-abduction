@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/thiagosa/Projects/scala-owl-abduction/src/test/scala/org/phylo/abducer/abduction/LightweightSingleCellCompleterOwlApiIntegrationSpec.scala:14:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m[33mimport[0m org.semanticweb.HermiT.ReasonerFactory[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       value HermiT is not a member of org.semanticweb[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

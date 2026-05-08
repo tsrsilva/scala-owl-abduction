@@ -1,0 +1,8 @@
+#Successful Tests
+#Fri May 08 15:58:15 EEST 2026
+org.phylo.abducer.abduction.FiniteStateCandidateGeneratorSpec=1778245094983
+org.phylo.abducer.abduction.LightweightSingleCellCompleterHermitGuardSpec=1778245095346
+org.phylo.abducer.abduction.LightweightSingleCellCompleterOwlApiIntegrationSpec=1778245095564
+org.phylo.abducer.abduction.LightweightSingleCellCompleterSpec=1778245095011
+org.phylo.abducer.reasoning.OwlConsistencyFilterSpec=1778245094983
+org.phylo.abducer.scoring.WeightedLinearScorerSpec=1778245094989

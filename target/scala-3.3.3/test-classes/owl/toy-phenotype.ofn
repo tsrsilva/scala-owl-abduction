@@ -1,0 +1,10 @@
+Prefix(:=<http://example.org/toy#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Ontology(
+ Declaration(Class(:Narrow))
+ Declaration(Class(:Wide))
+ DisjointClasses(:Narrow :Wide)
+
+ Declaration(NamedIndividual(:SpeciesA))
+ ClassAssertion(:Narrow :SpeciesA)
+)

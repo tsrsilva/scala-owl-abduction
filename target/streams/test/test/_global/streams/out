@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.phylo.abducer.abduction.LightweightSingleCellCompleterHermitGuardSpec, org.scalatest.tools.Framework$$anon$1@43b47e08, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.phylo.abducer.reasoning.OwlConsistencyFilterSpec, org.scalatest.tools.Framework$$anon$1@43b47e08, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.phylo.abducer.abduction.LightweightSingleCellCompleterOwlApiIntegrationSpec, org.scalatest.tools.Framework$$anon$1@43b47e08, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.phylo.abducer.scoring.WeightedLinearScorerSpec, org.scalatest.tools.Framework$$anon$1@43b47e08, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.phylo.abducer.abduction.FiniteStateCandidateGeneratorSpec, org.scalatest.tools.Framework$$anon$1@43b47e08, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.phylo.abducer.abduction.LightweightSingleCellCompleterSpec, org.scalatest.tools.Framework$$anon$1@43b47e08, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mWeightedLinearScorerSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score computes weighted sum and stores per-feature contributions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score uses default weight 1.0 when feature weight is absent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rationale is sorted descending by contribution[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mOwlConsistencyFilterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- check marks hypothesis consistent when reasoning port accepts assertion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- check marks hypothesis inconsistent with rejection reason when reasoning port rejects[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLightweightSingleCellCompleterSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete ranks candidates by score after filtering[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete excludes candidates rejected by consistency filter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete returns empty ranked list when all candidates are inconsistent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete respects topK truncation after ranking[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- complete treats non-positive topK as one[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFiniteStateCandidateGeneratorSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generate returns one candidate per state in character state space[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generate returns empty when character has no configured states[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLightweightSingleCellCompleterHermitGuardSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- HermiT guard: disjoint-state candidate is inconsistent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLightweightSingleCellCompleterOwlApiIntegrationSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- completer uses ELK-backed consistency checks to reject owl:Nothing candidate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 736 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.phylo.abducer.reasoning.OwlConsistencyFilterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.phylo.abducer.abduction.LightweightSingleCellCompleterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.phylo.abducer.abduction.LightweightSingleCellCompleterOwlApiIntegrationSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.phylo.abducer.abduction.FiniteStateCandidateGeneratorSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.phylo.abducer.abduction.LightweightSingleCellCompleterHermitGuardSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.phylo.abducer.scoring.WeightedLinearScorerSpec[0m
