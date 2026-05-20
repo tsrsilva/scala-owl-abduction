@@ -5,9 +5,9 @@ import org.phylo.abducer.model.TaxonId
 import org.phylo.abducer.reasoning.OwlReasoningPort
 
 /**
-  * Placeholder adapter for a real OWLAPI-backed reasoner.
+  * Placeholder adapter for a OWLAPI-backed reasoner.
   *
-  * Suggested next step:
+  * Possible next step:
   * 1) Load ontology + ABox via OWLManager.
   * 2) Initialize reasoner (e.g. ELK for EL profile).
   * 3) Implement consistency checks and entailment lookup.
