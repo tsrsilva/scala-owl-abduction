@@ -11,7 +11,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.1",
       "org.slf4j" % "slf4j-simple" % "2.0.13",
-      "org.scalatest" %% "scalatest" % "3.2.19" % Test,
+      "org.scalatest" %% "scalatest" % "3.2.20" % Test,
       "io.github.liveontologies" % "elk-owlapi" % "0.6.0" % Test,
       "net.sourceforge.owlapi" % "org.semanticweb.hermit" % "1.4.5.519" % Test
     ),
