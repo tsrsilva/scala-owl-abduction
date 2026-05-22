@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-owl-abducer",
     libraryDependencies ++= Seq(
-      "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.0",
+      "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.1",
       "org.slf4j" % "slf4j-simple" % "2.0.13",
       "org.scalatest" %% "scalatest" % "3.2.19" % Test,
       "io.github.liveontologies" % "elk-owlapi" % "0.6.0" % Test,
