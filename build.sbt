@@ -1,5 +1,5 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
-ThisBuild / scalaVersion := "3.3.3"
+ThisBuild / scalaVersion := "3.3.7"
 ThisBuild / organization := "org.phylo"
 
 val runHermitGuards: Boolean =
@@ -12,6 +12,9 @@ lazy val root = (project in file("."))
       "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.0",
       "org.slf4j" % "slf4j-simple" % "2.0.18",
       "org.scalatest" %% "scalatest" % "3.2.19" % Test,
+      "net.sourceforge.owlapi" % "owlapi-distribution" % "5.5.1",
+      "org.slf4j" % "slf4j-simple" % "2.0.13",
+      "org.scalatest" %% "scalatest" % "3.2.20" % Test,
       "io.github.liveontologies" % "elk-owlapi" % "0.6.0" % Test,
       "net.sourceforge.owlapi" % "org.semanticweb.hermit" % "1.4.5.519" % Test
     ),
