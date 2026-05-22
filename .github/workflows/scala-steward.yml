@@ -1,0 +1,28 @@
+name: Scala Steward
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Weekly run at 03:17 UTC every Monday
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: scala-steward-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scala-steward:
+    name: Scala Steward
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Run Scala Steward
+        uses: scala-steward-org/scala-steward-action@v2
+        with:
+          # Uses the default GitHub Actions token for this repository.
+          github-token: ${{ secrets.GITHUB_TOKEN }}
